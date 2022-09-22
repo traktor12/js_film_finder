@@ -1,0 +1,71 @@
+body {
+  background-color: #b2acab;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #121212;
+  padding: 0;
+  margin: 0;
+}
+body nav li {
+  width: 165px;
+  border: cornsilk solid;
+  border-width: 0px 0px 2px 3px;
+  border-radius: 0 0 6% 1.5%;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 40px;
+  height: 40px;
+}
+body nav li #search {
+  margin-left: 4px;
+  width: 70%;
+}
+body nav li #searchButton {
+  width: 30px;
+  height: 25px;
+}
+body nav li:hover {
+  transition: ease-out 0.1s;
+  background-color: rgb(219, 219, 36);
+  opacity: 90%;
+}
+body nav li:hover label {
+  color: #A101CD;
+}
+body nav li input[type=radio],
+body nav li input[type=checkbox] {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: 0.5rem;
+  accent-color: red;
+}
+body nav li label {
+  color: whitesmoke;
+}
+body #moviesDiv ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  list-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+body #moviesDiv ul img {
+  height: 300PX;
+  width: 200px;
+}
+body #moviesDiv ul a,
+body #moviesDiv ul a:focus,
+body #moviesDiv ul a:active {
+  text-decoration: none;
+  color: inherit;
+}
+body #moviesDiv ul a:hover,
+body #moviesDiv ul a:focus:hover,
+body #moviesDiv ul a:active:hover {
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

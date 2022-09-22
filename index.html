@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <script defer src="/javascript/movies.js"></script>
+        <script defer src="/javascript/index.js"></script>
+        <nav>
+            <ul>
+                <li>
+                    <input type="checkbox" id="allC" class="checkbox all" name="movieFilter" value="All Movies" />
+                    <input type="radio" id="allR" class="radio all" name="movieFilter" value="All Movies" />
+                    <label for="allR">All</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="newestC" class="checkbox newest" name="movieFilter" value="Newest Movies" />
+                    <input type="radio" id="newestR" class="radio newest" name="movieFilter" value="Newest Movies" />
+                    <label for="newestR">Newest</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="avengerC" class="checkbox avenger" name="movieFilter" value="Avenger Movies" />
+                    <input type="radio" id="avengerR" class="radio avenger" name="movieFilter" value="Avenger Movies" />
+                    <label for="avengerR">Avenger</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="xMenC" class="checkbox xMen" name="movieFilter" value="X-Men Movies" />
+                    <input type="radio" id="xMenR" class="radio xMen" name="movieFilter" value="X-Men Movies" />
+                    <label for="xMenR">X-Men</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="batmanC" class="checkbox batman" name="movieFilter" value="Batman Movies" />
+                    <input type="radio" id="batmanR" class="radio batman" name="movieFilter" value="Batman Movies" />
+                    <label for="batmanR">Batman</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="princessC" class="checkbox princess" name="movieFilter" value="Princess Movies" />
+                    <input type="radio" id="princessR" class="radio princess" name="movieFilter" value="Princess Movies" />
+                    <label for="princessR">Princess</label>
+                </li>               
+                <li>
+                    <input type="search" name="searchBar" id="search" placeholder="search">
+                    <label  for="search"><input id="searchButton" type="submit" value="&#128269"></label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="moviesDiv">
+        </div>
+    </main>
+</body>
+
+</html>
